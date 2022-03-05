@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen_1">
         <activity
+            android:name=".menu4"
+            android:exported="false" />
+        <activity
+            android:name=".menu3"
+            android:exported="false" />
+        <activity
             android:name=".menu2"
             android:exported="false" />
         <activity

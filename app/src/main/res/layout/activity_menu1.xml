@@ -82,6 +82,7 @@
 
 
         <LinearLayout
+            android:id="@+id/lrn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/lir1"
@@ -99,6 +100,12 @@
                 android:src="@drawable/bds1"/>
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
 
     </LinearLayout>
 

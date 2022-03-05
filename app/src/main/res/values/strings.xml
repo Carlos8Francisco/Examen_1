@@ -2,5 +2,7 @@
     <string name="app_name">Examen_1</string>
     <string name="logo">vitoLugino</string>
     <string name="mn1"><u>Secciones</u></string>
+    <string name="mn2"><u>Menú Pizzas</u></string>
+    <string name="mn3"><u>Menú Refrescos</u></string>
 
 </resources>

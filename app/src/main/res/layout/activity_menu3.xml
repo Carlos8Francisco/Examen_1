@@ -66,7 +66,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="- Peperoni"
+                android:text="- beer"
                 android:fontFamily="sans-serif-black"
                 android:textSize="20dp"
                 android:layout_gravity="center"
@@ -99,7 +99,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="- Atún"
+                android:text="- 7Up"
                 android:fontFamily="sans-serif-black"
                 android:textSize="20dp"
                 android:layout_gravity="center"
@@ -132,7 +132,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="- Hawaiana"
+                android:text="- CocaCola"
                 android:fontFamily="sans-serif-black"
                 android:textSize="20dp"
                 android:layout_gravity="center"
@@ -184,7 +184,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Bebidas" />
+                android:text="Pizzas" />
 
             <Button
                 android:id="@+id/btn2"

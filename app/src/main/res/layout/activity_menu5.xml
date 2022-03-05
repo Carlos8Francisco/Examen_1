@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu4"
+    tools:context=".menu5"
     android:background="#DFC254">
 
     <TextView
@@ -26,12 +26,11 @@
         android:layout_margin="13dp"
         android:src="@drawable/pzza"/>
 
-
-
     <LinearLayout
         android:id="@+id/lir1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="30dp"
         android:orientation="vertical"
         android:gravity="center">
 
@@ -39,29 +38,42 @@
             android:id="@+id/tx1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" "
+            android:text="Gracias por utilizar la app de vitoLuigini..  "
             android:fontFamily="sans-serif-black"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:layout_gravity="center"
-            android:textColor="@color/black"/>
+            android:background="#C1E4AF46"
+            android:textColor="#EA2727"/>
+
+        <TextView
+            android:id="@+id/tx2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Su pedido fue recibido en breve se enviará  "
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:background="#C1E4AF46"
+            android:textColor="#EA2727"/>
+
+        <ImageView
+            android:id="@+id/im3"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_margin="13dp"
+            android:src="@drawable/fast"/>
 
         <Button
-            android:id="@+id/btn1"
+            android:id="@+id/no1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Enviar Pedido" />
-        <Button
-            android:id="@+id/btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
 
-            android:text="Cancelar" />
+            android:text="Terminar" />
+
 
 
 
     </LinearLayout>
-
 
 </RelativeLayout>

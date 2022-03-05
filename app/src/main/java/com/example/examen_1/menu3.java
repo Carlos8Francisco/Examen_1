@@ -35,19 +35,44 @@ public class menu3 extends AppCompatActivity {
 
 
 
-                if (ch1.isChecked()==true){
+                if (ch1.isChecked()==true && ch2.isChecked()==true && ch3.isChecked()==true){
                     Intent i = new Intent(menu3.this, menu4.class);
 
-                    i.putExtra("dato", "beer con un total de $50");
+                    i.putExtra("dato", "beer, 7Up y CocaCola con un total de $90");
                     startActivity(i);
-                }
-                if (ch2.isChecked()==true){
+                }else
+                if (ch1.isChecked()==true && ch2.isChecked()==true && ch3.isChecked()==false){
                     Intent i = new Intent(menu3.this, menu4.class);
 
-                    i.putExtra("dato", "7Up con un total de $30");
+                    i.putExtra("dato", "beer, 7Up con un total de $80");
+                    startActivity(i);
+                }else
+                if (ch1.isChecked()==false && ch2.isChecked()==true && ch3.isChecked()==true){
+                    Intent i = new Intent(menu3.this, menu4.class);
+
+                    i.putExtra("dato", "7Up y CocaCola con un total de $40");
+                    startActivity(i);
+                }else
+                if (ch1.isChecked()==true && ch2.isChecked()==false && ch3.isChecked()==true){
+                    Intent i = new Intent(menu3.this, menu4.class);
+
+                    i.putExtra("dato", "beer y CocaCola con un total de $60");
+                    startActivity(i);
+                }else
+                if (ch1.isChecked()==true && ch2.isChecked()==false && ch3.isChecked()==false){
+                    Intent i = new Intent(menu3.this, menu4.class);
+
+                    i.putExtra("dato", "beer  con un total de $50");
+                    startActivity(i);
+                }else
+                if (ch1.isChecked()==false && ch2.isChecked()==true && ch3.isChecked()==false){
+                    Intent i = new Intent(menu3.this, menu4.class);
+
+                    i.putExtra("dato", "7Up  con un total de $30");
                     startActivity(i);
                 }
-                if (ch3.isChecked()==true){
+                else
+                if (ch1.isChecked()==false && ch2.isChecked()==false && ch3.isChecked()==true){
                     Intent i = new Intent(menu3.this, menu4.class);
 
                     i.putExtra("dato", "CocaCola con un total de $10");
@@ -75,7 +100,6 @@ public class menu3 extends AppCompatActivity {
 
     }
 }
-    }
 
 
-}
+

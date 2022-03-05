@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu1"
+    android:background="#DFC254">
+
+    <TextView
+        android:id="@+id/p1t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logo"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"
+        android:background="#C1E4AF46"
+        android:textColor="#EA2727"
+        />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_margin="13dp"
+        android:src="@drawable/pzza"/>
+
+    <LinearLayout
+        android:id="@+id/lir1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:gravity="center"
+            android:background="#C1E4AF46"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#807979"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mn1"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#EA2727"
+            android:textSize="50dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lir1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#EA2727"
+                android:textSize="30dp"
+                android:layout_marginRight="30sp"
+                android:text="Pizzas"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#EA2727"
+                android:layout_marginLeft="30sp"
+                android:textSize="30dp"
+                android:text="Refrescos"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lir1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imb1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/pzss1"/>
+            <ImageButton
+                android:id="@+id/imb2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bds1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

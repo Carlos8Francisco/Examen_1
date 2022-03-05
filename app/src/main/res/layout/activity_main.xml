@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#DFC254">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:src="@drawable/pzza"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+
+
+       <TextView
+           android:id="@+id/p1t"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           android:text="@string/logo"
+           android:fontFamily="sans-serif-black"
+           android:textSize="50dp"
+           android:textColor="#EA2727"
+           />
+
+       <TextView
+           android:id="@+id/txt1"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:background="#E3B24F"
+           android:fontFamily="sans-serif-black"
+           android:text="Usuario"
+           android:textColor="@color/white"
+           android:textSize="25dp" />
+
+       <EditText
+           android:id="@+id/edit1"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:hint="Ingrese el usuario"
+           android:inputType="text"
+           android:textSize="20dp" />
+
+       <TextView
+           android:id="@+id/txt2"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:background="#E3B24F"
+           android:fontFamily="sans-serif-black"
+           android:text="Contraseña"
+           android:textColor="@color/white"
+           android:textSize="25dp" />
+
+       <EditText
+           android:id="@+id/edit2"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:hint="Ingrese la contraseña"
+           android:inputType="number"
+           android:textSize="20dp" />
+
+       <Button
+           android:id="@+id/ing1"
+           android:text="Ingresar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+
+
+
+
+   </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
